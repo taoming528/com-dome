@@ -1,0 +1,14 @@
+server:
+  port: 12012
+
+spring:
+  datasource:
+    url: jdbc:mysql://172.24.245.159:3316/alliance_test?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: Qiying@123
+    driver-class-name: com.mysql.jdbc.Driver
+
+logging:
+  path: /home/deploy/logs/tttd
+  level:
+    root: info

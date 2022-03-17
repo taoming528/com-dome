@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qy.dome.mapper.MerchantApplyMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.qy.dome.model.MerchantApply">
+        <id column="id" property="id" />
+        <result column="user_id" property="userId" />
+        <result column="user_name" property="userName" />
+        <result column="industry" property="industry" />
+        <result column="scale" property="scale" />
+        <result column="mobil_phone" property="mobilPhone" />
+        <result column="company_name" property="companyName" />
+        <result column="province" property="province" />
+        <result column="city" property="city" />
+        <result column="city_code" property="cityCode" />
+        <result column="position_info" property="positionInfo" />
+        <result column="audit_status" property="auditStatus" />
+        <result column="audit_date" property="auditDate" />
+        <result column="rejection_reason" property="rejectionReason" />
+        <result column="remark" property="remark" />
+        <result column="apply_time" property="applyTime" />
+        <result column="is_delete" property="isDelete" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+    </resultMap>
+
+</mapper>
