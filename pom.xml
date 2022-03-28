@@ -7,6 +7,7 @@
         <module>core-service</module>
         <module>customer-web</module>
         <module>platform-web</module>
+        <module>merchant-web</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

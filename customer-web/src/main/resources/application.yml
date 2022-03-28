@@ -1,5 +1,5 @@
 server:
-  port: 12012
+  port: 12011
 
 spring:
   datasource:
@@ -9,6 +9,6 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
 
 logging:
-  path: /home/deploy/logs/tttd
+  path: /tmp
   level:
     root: info
